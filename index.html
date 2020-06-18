@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Tasks for Children</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="task container">
+    <form action="/" method="post">
+      <span id="firstNum"></span>
+      <span id="sign"></span>
+      <span id="secondNum"></span>
+      <span>=</span>
+      <input id="equal" type="number" value="">
+      <input id="btn" type="submit" value="Answer">
+    </form>
+
+    <div class="select-random">
+      <form id="selectRandom" action="/" method="post">
+        <label>Min number: </label>
+        <input name="min" type="number"> </br>
+        <label>Max number: </label>
+        <input name="max" type="number"> </br>
+        <input type="submit" value="Ok">
+      </form>
+    </div>
+  </div>
+
+  <div id="answers" class="answers container"></div>
+
+  <div style="float: right">
+    <!--LiveInternet counter--><a href="//www.liveinternet.ru/click"
+      target="_blank"><img id="licnt59C8" width="88" height="120" style="border:0"
+      title="LiveInternet: показано количество просмотров и посетителей"
+      src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAEALAAAAAABAAEAAAIBTAA7"
+      alt=""/></a><script>(function(d,s){d.getElementById("licnt59C8").src=
+      "//counter.yadro.ru/hit?t27.11;r"+escape(d.referrer)+
+      ((typeof(s)=="undefined")?"":";s"+s.width+"*"+s.height+"*"+
+      (s.colorDepth?s.colorDepth:s.pixelDepth))+";u"+escape(d.URL)+
+      ";h"+escape(d.title.substring(0,150))+";"+Math.random()})
+      (document,screen)</script><!--/LiveInternet-->
+  </div>
+
+  <script src="./data/images.js">
+  </script>
+  <script src="js/main.js"></script>
+</body>
+</html>

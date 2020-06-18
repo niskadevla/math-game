@@ -1,0 +1,38 @@
+.container {
+  margin-bottom: 2rem;
+}
+
+.task {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+.task span {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.date {
+  font-weight: bold;
+  margin: 1rem 0;
+}
+
+.answers img {
+  width: 5rem;
+  height: auto;
+}
+
+.answers p {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+
+.not-correct {
+  color: red;
+}
+
+.correct {
+  color: #186f10; /*green*/
+}
